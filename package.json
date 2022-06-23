@@ -1,0 +1,29 @@
+{
+  "name": "demo-selenium",
+  "version": "1.0.0",
+  "description": "Demo for Selenium WebDriver",
+  "main": "index.js",
+  "scripts": {
+    "eslint": "eslint .",
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rimus/demo-selenium.git"
+  },
+  "author": "Aliaksandr_Yeutushkou@epam.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rimus/demo-selenium/issues"
+  },
+  "homepage": "https://github.com/rimus/demo-selenium#readme",
+  "dependencies": {
+    "chromedriver": "^103.0.0",
+    "selenium-webdriver": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
