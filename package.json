@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Demo for Selenium WebDriver",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "eslint": "eslint .",
     "test": "node index"
