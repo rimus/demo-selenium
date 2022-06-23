@@ -1,7 +1,7 @@
-require('chromedriver');
+import 'chromedriver';
 
-const { Builder, By } = require('selenium-webdriver');
-const assert = require('assert');
+import { Builder, By } from 'selenium-webdriver';
+import { deepStrictEqual } from 'assert';
 
 (async () => {
   const driver = await new Builder().forBrowser('chrome').build();
@@ -14,6 +14,6 @@ const assert = require('assert');
   await searchButton.click();
   searchBox = await driver.findElement(By.name('q'));
   const value = await searchBox.getAttribute('value');
-  assert.deepStrictEqual(value, 'Selenium');
+  deepStrictEqual(value, 'Selenium');
   await driver.quit();
 })();
